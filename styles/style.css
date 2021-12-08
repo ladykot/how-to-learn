@@ -18,6 +18,10 @@ p {
   margin: 0;
 }
 
+body {
+  margin: 0 0 0 0;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -30,12 +34,10 @@ p {
 }
 
 .header__title {
-  position: absolute;
-  padding: 0;
   margin: 0;
   width: 730px;
   line-height: 96px;
-  left: 64px;
+  padding-left: 64px;
   font-size: 102px;
   font-weight: bold;
   z-index: 2;
