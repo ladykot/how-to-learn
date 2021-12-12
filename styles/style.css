@@ -309,12 +309,15 @@ body {
 }
 
 .footer__column-links {
+  margin: 0;
   display: flex;
   flex-direction: column;
   padding: 20px 0 16px 0;
+  list-style-type: none;
 }
 
 .footer__column-link {
+  display: inline-flex;
   line-height: 30px;
   font-weight: normal;
   color: white;
@@ -322,6 +325,7 @@ body {
 }
 
 .footer__social-icon {
+  align-self: center;
   width: 16px;
   height: 16px;
   padding-right: 10px;
