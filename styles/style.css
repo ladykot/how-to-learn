@@ -154,6 +154,7 @@
   font-weight: normal;
   display: flex;
   justify-content: center;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -226,7 +227,7 @@
 }
 
 .feynman__subtitle {
-  margin-top: 70px 0 0 0;
+  margin: 70px 0 0 0;
   text-align: center;
   z-index: 1;
   font-size: 36px;
