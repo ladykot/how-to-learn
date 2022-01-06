@@ -7,8 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body>
@@ -17,8 +16,7 @@
     <header class="header">
       <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="логотип ЯПрактикум">
       <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни?<a class="header__link" href=""> Узнать →</a>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link" href=""> Узнать →</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Картина с мальчиком">
       <div class="header__square-pic"></div>
@@ -83,14 +81,14 @@
       </section>
 
       <section class="video">
-        <div class="section-title">Видео нa TED</div>
-        <div class="section-subtitle">Для тех, кто любит прокрастинировать</div>
+        <h2 class="section-title">Видео нa TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <ul class="video__iframes">
-          <li class="video__iframe">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <li>
+            <iframe class="video__iframe" width="515" height="360" src="https://www.youtube.com/embed/arj7oStGLkU"  title="YouTube video player"  allowfullscreen></iframe>
           </li>
-          <li class="video__iframe">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <li>
+            <iframe class="video__iframe" width="515" height="360" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allowfullscreen></iframe>
           </li>
         </ul>
       </section>
@@ -154,10 +152,10 @@
       </section>
 
       <section class="khan">
-        <div class="container">
-          <p class="author">Салман Хан</p>
+        <div class="khan__container">
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <cite class="khan__quote-author">Джордж Лукас</cite>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -222,12 +220,10 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
-          <li class="resources__logo">
-            <img src="./images/resources-arzamas.svg" alt="логотип Arzamas">
-            <img src="./images/resources-n1.svg" alt="логотип n1">
-            <img src="./images/resources-strelka.svg" alt="логотип Strelka">
-            <img src="./images/resources-polka.svg" alt="логотип Polka">
-          </li>
+          <li class="resources__logo"><a href="#"><img src="./images/resources-arzamas.svg" alt="логотип Arzamas"></a></li>
+          <li class="resources__logo"><a href="#"><img src="./images/resources-n1.svg" alt="логотип n1"></a></li>
+          <li class="resources__logo"><a href="#"><img src="./images/resources-strelka.svg" alt="логотип Strelka"></a></li>
+          <li class="resources__logo"><a href="#"><img src="./images/resources-polka.svg" alt="логотип Polka"></a></li>
         </ul>
       </section>
 

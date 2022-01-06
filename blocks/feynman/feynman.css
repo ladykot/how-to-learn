@@ -1,11 +1,11 @@
 .feynman {
-    /* чтобы высота блока не менялась, задаем border-box */
-    box-sizing: border-box;
-    min-height: 890px;
-    padding-top: 100px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f2f2f2;
-  }
+  /* чтобы высота блока не менялась, задаем border-box */
+  box-sizing: border-box;
+  min-height: 890px;
+  padding-top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+}
