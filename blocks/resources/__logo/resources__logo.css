@@ -2,6 +2,6 @@
   width: 270px;
   height: 38px;
   margin: 0;
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
